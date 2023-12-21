@@ -17,14 +17,21 @@
 <body>
     <h1 class="text-center">Email check</h1>
     <section id="form">
-        <div class="container-sm d-flex justify-content-center flex-column">
-            <label for="exampleFormControlInput1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-            <div class="alert alert-danger d-none" role="alert">
-                Email non valida
+        <div class="container-sm d-flex align-items-center flex-column row-gap-4">
+            <div class="i-group w-25">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control mb-3" id="email" placeholder="name@example.com">
+                <div id="alert" class="alert alert-danger d-none" role="alert">
+                    Email non valida!
+                </div>
+                <div id="success" class="alert alert-success d-none" role="alert">
+                    Email corretta!
+                </div>
             </div>
 
-            <button id="button" type="button">Conferma</button>
+            <button id="button" type="button" class="border-primary rounded-2">Conferma</button>
+            <button id="undo-button" type="button" class="border-primary rounded-2">Annulla</button>
+
         </div>
 
     </section>

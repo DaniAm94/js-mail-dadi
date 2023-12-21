@@ -13,7 +13,7 @@
     - Finta Login
         1. Inventa una lista di email autorizzate
         2. Chiedi all’utente la sua email, con un piccolo form.
-        3. Controlla che la mail inserita sia nella lista di chi può accedere,
+        3. Controlla che la mail inserita sia nella lista di chi può accedere.
         4. Stampa un messaggio appropriato sull’esito del controllo.
 ---
 
@@ -40,3 +40,11 @@
 - Generare i due numeri casuali da 1 a 6.
 - Controllare i due risultati e decretare il vincitore sulla base: **il numero più alto vince**
 - Stampiamo in pagina i due numeri usciti e il vincitore
+
+
+## Scaletta `Esercizio 2`
+- Recupero gli elementi html
+- Creo un'array di elementi "email address"
+- Inserisco l'email inserita dall'utente tramite form in una variabile
+- Controlla che l'email sia presente nell'array
+- Mostro il risultato sulla pagina

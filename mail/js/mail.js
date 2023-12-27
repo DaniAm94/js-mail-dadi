@@ -20,11 +20,10 @@ button.addEventListener('click', function () {
     const email = inputMail.value.trim();
 
     // Inizializzo un ciclo for per controllare che l'email inserita dall'utente sia nella mia lista
-    for (let i = 0; i < emailAddresses.length; i++) {
-
+    for (let i = 0; i < emailAddresses.length && !isValid; i++) {
+        console.log(i);
         // In caso di esito positivo forzo la chiusura del ciclo for e modifico il valore del flag a true
         if (email === emailAddresses[i]) {
-            i = emailAddresses.length;
             isValid = true;
         }
     }
